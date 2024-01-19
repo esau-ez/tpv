@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="login">
+    <file>assets/login/cohete.png</file>
+    <file>assets/login/circulo-marca-x.png</file>
+  </qresource>
+  <qresource prefix="interfaz ">
+    <file>assets/interfaz principal/segunda barra lateral/agregar.png</file>
+    <file>assets/interfaz principal/segunda barra lateral/archivo-de-edicion.png</file>
+    <file>assets/interfaz principal/segunda barra lateral/basura.png</file>
+    <file>assets/interfaz principal/segunda barra lateral/buscar-alt.png</file>
+    <file>assets/interfaz principal/barra lateral/carro-de-compras-rapido.png</file>
+    <file>assets/interfaz principal/barra lateral/devolucion-de-dinero.png</file>
+    <file>assets/interfaz principal/barra lateral/inventario-disponible.png</file>
+    <file>assets/interfaz principal/barra lateral/tendencia.png</file>
+    <file>assets/interfaz principal/barra lateral/usuario.png</file>
+  </qresource>
+</RCC>
