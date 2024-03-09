@@ -14,8 +14,6 @@ def consulta(query):
     # Obtener todos los resultados
     resultados = cursor.fetchall()
     print("DONE")
-    cursor.close()
-    conexion.close()
     return resultados
 def add(query):
     # Ejecutar la consulta

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'mainINapdX.ui'
+## Form generated from reading UI file 'mainfvRlPf.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.6.2
 ##
@@ -246,17 +246,6 @@ class Ui_MainWindow(object):
         self.tableWidget.setHorizontalHeaderItem(1, __qtablewidgetitem1)
         __qtablewidgetitem2 = QTableWidgetItem()
         self.tableWidget.setHorizontalHeaderItem(2, __qtablewidgetitem2)
-        if (self.tableWidget.rowCount() < 38):
-            self.tableWidget.setRowCount(38)
-        __qtablewidgetitem3 = QTableWidgetItem()
-        __qtablewidgetitem3.setTextAlignment(Qt.AlignCenter);
-        self.tableWidget.setItem(0, 0, __qtablewidgetitem3)
-        __qtablewidgetitem4 = QTableWidgetItem()
-        __qtablewidgetitem4.setTextAlignment(Qt.AlignCenter);
-        self.tableWidget.setItem(0, 1, __qtablewidgetitem4)
-        __qtablewidgetitem5 = QTableWidgetItem()
-        __qtablewidgetitem5.setTextAlignment(Qt.AlignCenter);
-        self.tableWidget.setItem(0, 2, __qtablewidgetitem5)
         self.tableWidget.setObjectName(u"tableWidget")
         self.tableWidget.setGeometry(QRect(25, 71, 961, 281))
         self.tableWidget.setStyleSheet(u"QTableWidget {\n"
@@ -296,7 +285,7 @@ class Ui_MainWindow(object):
         self.tableWidget.setSelectionMode(QAbstractItemView.NoSelection)
         self.tableWidget.setHorizontalScrollMode(QAbstractItemView.ScrollPerItem)
         self.tableWidget.setShowGrid(False)
-        self.tableWidget.setRowCount(38)
+        self.tableWidget.setRowCount(0)
         self.tableWidget.horizontalHeader().setDefaultSectionSize(321)
         self.tableWidget.horizontalHeader().setProperty("showSortIndicator", False)
         self.tableWidget.verticalHeader().setVisible(False)
@@ -311,26 +300,26 @@ class Ui_MainWindow(object):
         self.tableWidget_2 = QTableWidget(self.vender)
         if (self.tableWidget_2.columnCount() < 3):
             self.tableWidget_2.setColumnCount(3)
-        __qtablewidgetitem6 = QTableWidgetItem()
-        self.tableWidget_2.setHorizontalHeaderItem(0, __qtablewidgetitem6)
-        __qtablewidgetitem7 = QTableWidgetItem()
-        self.tableWidget_2.setHorizontalHeaderItem(1, __qtablewidgetitem7)
-        __qtablewidgetitem8 = QTableWidgetItem()
-        self.tableWidget_2.setHorizontalHeaderItem(2, __qtablewidgetitem8)
+        __qtablewidgetitem3 = QTableWidgetItem()
+        self.tableWidget_2.setHorizontalHeaderItem(0, __qtablewidgetitem3)
+        __qtablewidgetitem4 = QTableWidgetItem()
+        self.tableWidget_2.setHorizontalHeaderItem(1, __qtablewidgetitem4)
+        __qtablewidgetitem5 = QTableWidgetItem()
+        self.tableWidget_2.setHorizontalHeaderItem(2, __qtablewidgetitem5)
         if (self.tableWidget_2.rowCount() < 38):
             self.tableWidget_2.setRowCount(38)
         font8 = QFont()
         font8.setBold(False)
-        __qtablewidgetitem9 = QTableWidgetItem()
-        __qtablewidgetitem9.setTextAlignment(Qt.AlignCenter);
-        __qtablewidgetitem9.setFont(font8);
-        self.tableWidget_2.setItem(0, 0, __qtablewidgetitem9)
-        __qtablewidgetitem10 = QTableWidgetItem()
-        __qtablewidgetitem10.setTextAlignment(Qt.AlignCenter);
-        self.tableWidget_2.setItem(0, 1, __qtablewidgetitem10)
-        __qtablewidgetitem11 = QTableWidgetItem()
-        __qtablewidgetitem11.setTextAlignment(Qt.AlignCenter);
-        self.tableWidget_2.setItem(0, 2, __qtablewidgetitem11)
+        __qtablewidgetitem6 = QTableWidgetItem()
+        __qtablewidgetitem6.setTextAlignment(Qt.AlignCenter);
+        __qtablewidgetitem6.setFont(font8);
+        self.tableWidget_2.setItem(0, 0, __qtablewidgetitem6)
+        __qtablewidgetitem7 = QTableWidgetItem()
+        __qtablewidgetitem7.setTextAlignment(Qt.AlignCenter);
+        self.tableWidget_2.setItem(0, 1, __qtablewidgetitem7)
+        __qtablewidgetitem8 = QTableWidgetItem()
+        __qtablewidgetitem8.setTextAlignment(Qt.AlignCenter);
+        self.tableWidget_2.setItem(0, 2, __qtablewidgetitem8)
         self.tableWidget_2.setObjectName(u"tableWidget_2")
         self.tableWidget_2.setGeometry(QRect(30, 400, 551, 411))
         self.tableWidget_2.setStyleSheet(u"QTableWidget {\n"
@@ -449,24 +438,24 @@ class Ui_MainWindow(object):
         self.tableWidget_4 = QTableWidget(self.devolver)
         if (self.tableWidget_4.columnCount() < 3):
             self.tableWidget_4.setColumnCount(3)
-        __qtablewidgetitem12 = QTableWidgetItem()
-        self.tableWidget_4.setHorizontalHeaderItem(0, __qtablewidgetitem12)
-        __qtablewidgetitem13 = QTableWidgetItem()
-        self.tableWidget_4.setHorizontalHeaderItem(1, __qtablewidgetitem13)
-        __qtablewidgetitem14 = QTableWidgetItem()
-        self.tableWidget_4.setHorizontalHeaderItem(2, __qtablewidgetitem14)
+        __qtablewidgetitem9 = QTableWidgetItem()
+        self.tableWidget_4.setHorizontalHeaderItem(0, __qtablewidgetitem9)
+        __qtablewidgetitem10 = QTableWidgetItem()
+        self.tableWidget_4.setHorizontalHeaderItem(1, __qtablewidgetitem10)
+        __qtablewidgetitem11 = QTableWidgetItem()
+        self.tableWidget_4.setHorizontalHeaderItem(2, __qtablewidgetitem11)
         if (self.tableWidget_4.rowCount() < 38):
             self.tableWidget_4.setRowCount(38)
-        __qtablewidgetitem15 = QTableWidgetItem()
-        __qtablewidgetitem15.setTextAlignment(Qt.AlignCenter);
-        __qtablewidgetitem15.setFont(font8);
-        self.tableWidget_4.setItem(0, 0, __qtablewidgetitem15)
-        __qtablewidgetitem16 = QTableWidgetItem()
-        __qtablewidgetitem16.setTextAlignment(Qt.AlignCenter);
-        self.tableWidget_4.setItem(0, 1, __qtablewidgetitem16)
-        __qtablewidgetitem17 = QTableWidgetItem()
-        __qtablewidgetitem17.setTextAlignment(Qt.AlignCenter);
-        self.tableWidget_4.setItem(0, 2, __qtablewidgetitem17)
+        __qtablewidgetitem12 = QTableWidgetItem()
+        __qtablewidgetitem12.setTextAlignment(Qt.AlignCenter);
+        __qtablewidgetitem12.setFont(font8);
+        self.tableWidget_4.setItem(0, 0, __qtablewidgetitem12)
+        __qtablewidgetitem13 = QTableWidgetItem()
+        __qtablewidgetitem13.setTextAlignment(Qt.AlignCenter);
+        self.tableWidget_4.setItem(0, 1, __qtablewidgetitem13)
+        __qtablewidgetitem14 = QTableWidgetItem()
+        __qtablewidgetitem14.setTextAlignment(Qt.AlignCenter);
+        self.tableWidget_4.setItem(0, 2, __qtablewidgetitem14)
         self.tableWidget_4.setObjectName(u"tableWidget_4")
         self.tableWidget_4.setGeometry(QRect(20, 400, 551, 411))
         self.tableWidget_4.setStyleSheet(u"QTableWidget {\n"
@@ -532,23 +521,23 @@ class Ui_MainWindow(object):
         self.tableWidget_3 = QTableWidget(self.devolver)
         if (self.tableWidget_3.columnCount() < 3):
             self.tableWidget_3.setColumnCount(3)
-        __qtablewidgetitem18 = QTableWidgetItem()
-        self.tableWidget_3.setHorizontalHeaderItem(0, __qtablewidgetitem18)
-        __qtablewidgetitem19 = QTableWidgetItem()
-        self.tableWidget_3.setHorizontalHeaderItem(1, __qtablewidgetitem19)
-        __qtablewidgetitem20 = QTableWidgetItem()
-        self.tableWidget_3.setHorizontalHeaderItem(2, __qtablewidgetitem20)
+        __qtablewidgetitem15 = QTableWidgetItem()
+        self.tableWidget_3.setHorizontalHeaderItem(0, __qtablewidgetitem15)
+        __qtablewidgetitem16 = QTableWidgetItem()
+        self.tableWidget_3.setHorizontalHeaderItem(1, __qtablewidgetitem16)
+        __qtablewidgetitem17 = QTableWidgetItem()
+        self.tableWidget_3.setHorizontalHeaderItem(2, __qtablewidgetitem17)
         if (self.tableWidget_3.rowCount() < 38):
             self.tableWidget_3.setRowCount(38)
-        __qtablewidgetitem21 = QTableWidgetItem()
-        __qtablewidgetitem21.setTextAlignment(Qt.AlignCenter);
-        self.tableWidget_3.setItem(0, 0, __qtablewidgetitem21)
-        __qtablewidgetitem22 = QTableWidgetItem()
-        __qtablewidgetitem22.setTextAlignment(Qt.AlignCenter);
-        self.tableWidget_3.setItem(0, 1, __qtablewidgetitem22)
-        __qtablewidgetitem23 = QTableWidgetItem()
-        __qtablewidgetitem23.setTextAlignment(Qt.AlignCenter);
-        self.tableWidget_3.setItem(0, 2, __qtablewidgetitem23)
+        __qtablewidgetitem18 = QTableWidgetItem()
+        __qtablewidgetitem18.setTextAlignment(Qt.AlignCenter);
+        self.tableWidget_3.setItem(0, 0, __qtablewidgetitem18)
+        __qtablewidgetitem19 = QTableWidgetItem()
+        __qtablewidgetitem19.setTextAlignment(Qt.AlignCenter);
+        self.tableWidget_3.setItem(0, 1, __qtablewidgetitem19)
+        __qtablewidgetitem20 = QTableWidgetItem()
+        __qtablewidgetitem20.setTextAlignment(Qt.AlignCenter);
+        self.tableWidget_3.setItem(0, 2, __qtablewidgetitem20)
         self.tableWidget_3.setObjectName(u"tableWidget_3")
         self.tableWidget_3.setGeometry(QRect(20, 71, 960, 281))
         self.tableWidget_3.setStyleSheet(u"QTableWidget {\n"
@@ -940,28 +929,28 @@ class Ui_MainWindow(object):
         self.tableWidget_5 = QTableWidget(self.ConsultarProducto)
         if (self.tableWidget_5.columnCount() < 4):
             self.tableWidget_5.setColumnCount(4)
+        __qtablewidgetitem21 = QTableWidgetItem()
+        self.tableWidget_5.setHorizontalHeaderItem(0, __qtablewidgetitem21)
+        __qtablewidgetitem22 = QTableWidgetItem()
+        self.tableWidget_5.setHorizontalHeaderItem(1, __qtablewidgetitem22)
+        __qtablewidgetitem23 = QTableWidgetItem()
+        self.tableWidget_5.setHorizontalHeaderItem(2, __qtablewidgetitem23)
         __qtablewidgetitem24 = QTableWidgetItem()
-        self.tableWidget_5.setHorizontalHeaderItem(0, __qtablewidgetitem24)
-        __qtablewidgetitem25 = QTableWidgetItem()
-        self.tableWidget_5.setHorizontalHeaderItem(1, __qtablewidgetitem25)
-        __qtablewidgetitem26 = QTableWidgetItem()
-        self.tableWidget_5.setHorizontalHeaderItem(2, __qtablewidgetitem26)
-        __qtablewidgetitem27 = QTableWidgetItem()
-        self.tableWidget_5.setHorizontalHeaderItem(3, __qtablewidgetitem27)
+        self.tableWidget_5.setHorizontalHeaderItem(3, __qtablewidgetitem24)
         if (self.tableWidget_5.rowCount() < 38):
             self.tableWidget_5.setRowCount(38)
+        __qtablewidgetitem25 = QTableWidgetItem()
+        __qtablewidgetitem25.setTextAlignment(Qt.AlignCenter);
+        self.tableWidget_5.setItem(0, 0, __qtablewidgetitem25)
+        __qtablewidgetitem26 = QTableWidgetItem()
+        __qtablewidgetitem26.setTextAlignment(Qt.AlignCenter);
+        self.tableWidget_5.setItem(0, 1, __qtablewidgetitem26)
+        __qtablewidgetitem27 = QTableWidgetItem()
+        __qtablewidgetitem27.setTextAlignment(Qt.AlignCenter);
+        self.tableWidget_5.setItem(0, 2, __qtablewidgetitem27)
         __qtablewidgetitem28 = QTableWidgetItem()
         __qtablewidgetitem28.setTextAlignment(Qt.AlignCenter);
-        self.tableWidget_5.setItem(0, 0, __qtablewidgetitem28)
-        __qtablewidgetitem29 = QTableWidgetItem()
-        __qtablewidgetitem29.setTextAlignment(Qt.AlignCenter);
-        self.tableWidget_5.setItem(0, 1, __qtablewidgetitem29)
-        __qtablewidgetitem30 = QTableWidgetItem()
-        __qtablewidgetitem30.setTextAlignment(Qt.AlignCenter);
-        self.tableWidget_5.setItem(0, 2, __qtablewidgetitem30)
-        __qtablewidgetitem31 = QTableWidgetItem()
-        __qtablewidgetitem31.setTextAlignment(Qt.AlignCenter);
-        self.tableWidget_5.setItem(0, 3, __qtablewidgetitem31)
+        self.tableWidget_5.setItem(0, 3, __qtablewidgetitem28)
         self.tableWidget_5.setObjectName(u"tableWidget_5")
         self.tableWidget_5.setGeometry(QRect(130, 220, 511, 471))
         self.tableWidget_5.setStyleSheet(u"QTableWidget {\n"
@@ -1287,34 +1276,23 @@ class Ui_MainWindow(object):
         ___qtablewidgetitem1.setText(QCoreApplication.translate("MainWindow", u"Precio", None));
         ___qtablewidgetitem2 = self.tableWidget.horizontalHeaderItem(2)
         ___qtablewidgetitem2.setText(QCoreApplication.translate("MainWindow", u"Cantidad", None));
-
-        __sortingEnabled = self.tableWidget.isSortingEnabled()
-        self.tableWidget.setSortingEnabled(False)
-        ___qtablewidgetitem3 = self.tableWidget.item(0, 0)
-        ___qtablewidgetitem3.setText(QCoreApplication.translate("MainWindow", u"Compresa de ni\u00f1os", None));
-        ___qtablewidgetitem4 = self.tableWidget.item(0, 1)
-        ___qtablewidgetitem4.setText(QCoreApplication.translate("MainWindow", u"700\u20ac", None));
-        ___qtablewidgetitem5 = self.tableWidget.item(0, 2)
-        ___qtablewidgetitem5.setText(QCoreApplication.translate("MainWindow", u"1", None));
-        self.tableWidget.setSortingEnabled(__sortingEnabled)
-
         self.label_14.setText(QCoreApplication.translate("MainWindow", u"Resumen de Inventario", None))
-        ___qtablewidgetitem6 = self.tableWidget_2.horizontalHeaderItem(0)
-        ___qtablewidgetitem6.setText(QCoreApplication.translate("MainWindow", u"ISBN", None));
-        ___qtablewidgetitem7 = self.tableWidget_2.horizontalHeaderItem(1)
-        ___qtablewidgetitem7.setText(QCoreApplication.translate("MainWindow", u"Stock Actual", None));
-        ___qtablewidgetitem8 = self.tableWidget_2.horizontalHeaderItem(2)
-        ___qtablewidgetitem8.setText(QCoreApplication.translate("MainWindow", u"Stock PosVenta", None));
+        ___qtablewidgetitem3 = self.tableWidget_2.horizontalHeaderItem(0)
+        ___qtablewidgetitem3.setText(QCoreApplication.translate("MainWindow", u"ISBN", None));
+        ___qtablewidgetitem4 = self.tableWidget_2.horizontalHeaderItem(1)
+        ___qtablewidgetitem4.setText(QCoreApplication.translate("MainWindow", u"Stock Actual", None));
+        ___qtablewidgetitem5 = self.tableWidget_2.horizontalHeaderItem(2)
+        ___qtablewidgetitem5.setText(QCoreApplication.translate("MainWindow", u"Stock PosVenta", None));
 
-        __sortingEnabled1 = self.tableWidget_2.isSortingEnabled()
+        __sortingEnabled = self.tableWidget_2.isSortingEnabled()
         self.tableWidget_2.setSortingEnabled(False)
-        ___qtablewidgetitem9 = self.tableWidget_2.item(0, 0)
-        ___qtablewidgetitem9.setText(QCoreApplication.translate("MainWindow", u"8356326162", None));
-        ___qtablewidgetitem10 = self.tableWidget_2.item(0, 1)
-        ___qtablewidgetitem10.setText(QCoreApplication.translate("MainWindow", u"1", None));
-        ___qtablewidgetitem11 = self.tableWidget_2.item(0, 2)
-        ___qtablewidgetitem11.setText(QCoreApplication.translate("MainWindow", u"0", None));
-        self.tableWidget_2.setSortingEnabled(__sortingEnabled1)
+        ___qtablewidgetitem6 = self.tableWidget_2.item(0, 0)
+        ___qtablewidgetitem6.setText(QCoreApplication.translate("MainWindow", u"8356326162", None));
+        ___qtablewidgetitem7 = self.tableWidget_2.item(0, 1)
+        ___qtablewidgetitem7.setText(QCoreApplication.translate("MainWindow", u"1", None));
+        ___qtablewidgetitem8 = self.tableWidget_2.item(0, 2)
+        ___qtablewidgetitem8.setText(QCoreApplication.translate("MainWindow", u"0", None));
+        self.tableWidget_2.setSortingEnabled(__sortingEnabled)
 
         self.label_21.setText(QCoreApplication.translate("MainWindow", u"Resumen de Devoluci\u00f3n", None))
         self.label_22.setText(QCoreApplication.translate("MainWindow", u"SUBTOTAL", None))
@@ -1326,22 +1304,22 @@ class Ui_MainWindow(object):
         self.label_28.setText(QCoreApplication.translate("MainWindow", u"10807\u20ac", None))
         self.label_29.setText(QCoreApplication.translate("MainWindow", u"IVA", None))
         self.label_15.setText(QCoreApplication.translate("MainWindow", u"Resumen de Inventario", None))
-        ___qtablewidgetitem12 = self.tableWidget_4.horizontalHeaderItem(0)
-        ___qtablewidgetitem12.setText(QCoreApplication.translate("MainWindow", u"ISBN", None));
-        ___qtablewidgetitem13 = self.tableWidget_4.horizontalHeaderItem(1)
-        ___qtablewidgetitem13.setText(QCoreApplication.translate("MainWindow", u"Stock Actual", None));
-        ___qtablewidgetitem14 = self.tableWidget_4.horizontalHeaderItem(2)
-        ___qtablewidgetitem14.setText(QCoreApplication.translate("MainWindow", u"Stock PosVenta", None));
+        ___qtablewidgetitem9 = self.tableWidget_4.horizontalHeaderItem(0)
+        ___qtablewidgetitem9.setText(QCoreApplication.translate("MainWindow", u"ISBN", None));
+        ___qtablewidgetitem10 = self.tableWidget_4.horizontalHeaderItem(1)
+        ___qtablewidgetitem10.setText(QCoreApplication.translate("MainWindow", u"Stock Actual", None));
+        ___qtablewidgetitem11 = self.tableWidget_4.horizontalHeaderItem(2)
+        ___qtablewidgetitem11.setText(QCoreApplication.translate("MainWindow", u"Stock PosVenta", None));
 
-        __sortingEnabled2 = self.tableWidget_4.isSortingEnabled()
+        __sortingEnabled1 = self.tableWidget_4.isSortingEnabled()
         self.tableWidget_4.setSortingEnabled(False)
-        ___qtablewidgetitem15 = self.tableWidget_4.item(0, 0)
-        ___qtablewidgetitem15.setText(QCoreApplication.translate("MainWindow", u"8356326162", None));
-        ___qtablewidgetitem16 = self.tableWidget_4.item(0, 1)
-        ___qtablewidgetitem16.setText(QCoreApplication.translate("MainWindow", u"1", None));
-        ___qtablewidgetitem17 = self.tableWidget_4.item(0, 2)
-        ___qtablewidgetitem17.setText(QCoreApplication.translate("MainWindow", u"0", None));
-        self.tableWidget_4.setSortingEnabled(__sortingEnabled2)
+        ___qtablewidgetitem12 = self.tableWidget_4.item(0, 0)
+        ___qtablewidgetitem12.setText(QCoreApplication.translate("MainWindow", u"8356326162", None));
+        ___qtablewidgetitem13 = self.tableWidget_4.item(0, 1)
+        ___qtablewidgetitem13.setText(QCoreApplication.translate("MainWindow", u"1", None));
+        ___qtablewidgetitem14 = self.tableWidget_4.item(0, 2)
+        ___qtablewidgetitem14.setText(QCoreApplication.translate("MainWindow", u"0", None));
+        self.tableWidget_4.setSortingEnabled(__sortingEnabled1)
 
         self.pushButton_10.setText(QCoreApplication.translate("MainWindow", u"Devolver", None))
 #if QT_CONFIG(shortcut)
@@ -1349,22 +1327,22 @@ class Ui_MainWindow(object):
 #endif // QT_CONFIG(shortcut)
         self.lineEdit_3.setText("")
         self.lineEdit_3.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Buscar Producto a devolver", None))
-        ___qtablewidgetitem18 = self.tableWidget_3.horizontalHeaderItem(0)
-        ___qtablewidgetitem18.setText(QCoreApplication.translate("MainWindow", u"Nombre", None));
-        ___qtablewidgetitem19 = self.tableWidget_3.horizontalHeaderItem(1)
-        ___qtablewidgetitem19.setText(QCoreApplication.translate("MainWindow", u"Precio", None));
-        ___qtablewidgetitem20 = self.tableWidget_3.horizontalHeaderItem(2)
-        ___qtablewidgetitem20.setText(QCoreApplication.translate("MainWindow", u"Cantidad", None));
+        ___qtablewidgetitem15 = self.tableWidget_3.horizontalHeaderItem(0)
+        ___qtablewidgetitem15.setText(QCoreApplication.translate("MainWindow", u"Nombre", None));
+        ___qtablewidgetitem16 = self.tableWidget_3.horizontalHeaderItem(1)
+        ___qtablewidgetitem16.setText(QCoreApplication.translate("MainWindow", u"Precio", None));
+        ___qtablewidgetitem17 = self.tableWidget_3.horizontalHeaderItem(2)
+        ___qtablewidgetitem17.setText(QCoreApplication.translate("MainWindow", u"Cantidad", None));
 
-        __sortingEnabled3 = self.tableWidget_3.isSortingEnabled()
+        __sortingEnabled2 = self.tableWidget_3.isSortingEnabled()
         self.tableWidget_3.setSortingEnabled(False)
-        ___qtablewidgetitem21 = self.tableWidget_3.item(0, 0)
-        ___qtablewidgetitem21.setText(QCoreApplication.translate("MainWindow", u"Compresa de ni\u00f1os", None));
-        ___qtablewidgetitem22 = self.tableWidget_3.item(0, 1)
-        ___qtablewidgetitem22.setText(QCoreApplication.translate("MainWindow", u"700\u20ac", None));
-        ___qtablewidgetitem23 = self.tableWidget_3.item(0, 2)
-        ___qtablewidgetitem23.setText(QCoreApplication.translate("MainWindow", u"1", None));
-        self.tableWidget_3.setSortingEnabled(__sortingEnabled3)
+        ___qtablewidgetitem18 = self.tableWidget_3.item(0, 0)
+        ___qtablewidgetitem18.setText(QCoreApplication.translate("MainWindow", u"Compresa de ni\u00f1os", None));
+        ___qtablewidgetitem19 = self.tableWidget_3.item(0, 1)
+        ___qtablewidgetitem19.setText(QCoreApplication.translate("MainWindow", u"700\u20ac", None));
+        ___qtablewidgetitem20 = self.tableWidget_3.item(0, 2)
+        ___qtablewidgetitem20.setText(QCoreApplication.translate("MainWindow", u"1", None));
+        self.tableWidget_3.setSortingEnabled(__sortingEnabled2)
 
         self.pushButton_8.setText("")
         self.label_30.setText(QCoreApplication.translate("MainWindow", u"A\u00f1adir Producto", None))
@@ -1421,26 +1399,26 @@ class Ui_MainWindow(object):
         self.label_48.setText(QCoreApplication.translate("MainWindow", u"Eliminar Producto", None))
         self.lineEdit_18.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Precio", None))
         self.label_49.setText(QCoreApplication.translate("MainWindow", u"Precio", None))
-        ___qtablewidgetitem24 = self.tableWidget_5.horizontalHeaderItem(0)
-        ___qtablewidgetitem24.setText(QCoreApplication.translate("MainWindow", u"Nombre", None));
-        ___qtablewidgetitem25 = self.tableWidget_5.horizontalHeaderItem(1)
-        ___qtablewidgetitem25.setText(QCoreApplication.translate("MainWindow", u"Precio", None));
-        ___qtablewidgetitem26 = self.tableWidget_5.horizontalHeaderItem(2)
-        ___qtablewidgetitem26.setText(QCoreApplication.translate("MainWindow", u"Stock", None));
-        ___qtablewidgetitem27 = self.tableWidget_5.horizontalHeaderItem(3)
-        ___qtablewidgetitem27.setText(QCoreApplication.translate("MainWindow", u"Descuento", None));
+        ___qtablewidgetitem21 = self.tableWidget_5.horizontalHeaderItem(0)
+        ___qtablewidgetitem21.setText(QCoreApplication.translate("MainWindow", u"Nombre", None));
+        ___qtablewidgetitem22 = self.tableWidget_5.horizontalHeaderItem(1)
+        ___qtablewidgetitem22.setText(QCoreApplication.translate("MainWindow", u"Precio", None));
+        ___qtablewidgetitem23 = self.tableWidget_5.horizontalHeaderItem(2)
+        ___qtablewidgetitem23.setText(QCoreApplication.translate("MainWindow", u"Stock", None));
+        ___qtablewidgetitem24 = self.tableWidget_5.horizontalHeaderItem(3)
+        ___qtablewidgetitem24.setText(QCoreApplication.translate("MainWindow", u"Descuento", None));
 
-        __sortingEnabled4 = self.tableWidget_5.isSortingEnabled()
+        __sortingEnabled3 = self.tableWidget_5.isSortingEnabled()
         self.tableWidget_5.setSortingEnabled(False)
-        ___qtablewidgetitem28 = self.tableWidget_5.item(0, 0)
-        ___qtablewidgetitem28.setText(QCoreApplication.translate("MainWindow", u"Unamuno", None));
-        ___qtablewidgetitem29 = self.tableWidget_5.item(0, 1)
-        ___qtablewidgetitem29.setText(QCoreApplication.translate("MainWindow", u"2\u20ac", None));
-        ___qtablewidgetitem30 = self.tableWidget_5.item(0, 2)
-        ___qtablewidgetitem30.setText(QCoreApplication.translate("MainWindow", u"1", None));
-        ___qtablewidgetitem31 = self.tableWidget_5.item(0, 3)
-        ___qtablewidgetitem31.setText(QCoreApplication.translate("MainWindow", u"10", None));
-        self.tableWidget_5.setSortingEnabled(__sortingEnabled4)
+        ___qtablewidgetitem25 = self.tableWidget_5.item(0, 0)
+        ___qtablewidgetitem25.setText(QCoreApplication.translate("MainWindow", u"Unamuno", None));
+        ___qtablewidgetitem26 = self.tableWidget_5.item(0, 1)
+        ___qtablewidgetitem26.setText(QCoreApplication.translate("MainWindow", u"2\u20ac", None));
+        ___qtablewidgetitem27 = self.tableWidget_5.item(0, 2)
+        ___qtablewidgetitem27.setText(QCoreApplication.translate("MainWindow", u"1", None));
+        ___qtablewidgetitem28 = self.tableWidget_5.item(0, 3)
+        ___qtablewidgetitem28.setText(QCoreApplication.translate("MainWindow", u"10", None));
+        self.tableWidget_5.setSortingEnabled(__sortingEnabled3)
 
         self.pushButton_19.setText(QCoreApplication.translate("MainWindow", u"Buscar Producto", None))
 #if QT_CONFIG(shortcut)
